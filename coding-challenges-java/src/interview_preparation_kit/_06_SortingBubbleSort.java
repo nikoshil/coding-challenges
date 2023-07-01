@@ -19,7 +19,7 @@ Last Element: 2
 
  */
 
-public class _006_SortingBubbleSort {
+public class _06_SortingBubbleSort {
 
     public static void main(String[] args) {
 

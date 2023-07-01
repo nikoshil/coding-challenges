@@ -16,7 +16,7 @@ There are 5 socks in the pile, and we have two matching pairs with colours 2, 1,
 
  */
 
-public class _001_SalesByMatch {
+public class _01_SalesByMatch {
 
     public static void main(String[] args) {
 

@@ -22,7 +22,7 @@ UDDDUDUUDUDUDUUUDDDUDU
 
  */
 
-public class _004_CountingValleys {
+public class _04_CountingValleys {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -29,7 +29,7 @@ For each game, you will get an array of clouds numbered 0 if they are safe or 1 
 
  */
 
-public class _002_JumpingOnTheClouds {
+public class _02_JumpingOnTheClouds {
 
     public static void main(String[] args) {
 

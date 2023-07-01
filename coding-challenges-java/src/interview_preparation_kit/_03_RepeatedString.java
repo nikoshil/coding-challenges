@@ -15,7 +15,7 @@ abcac
 The substring we consider is 'abcacabcacabcacabcaca', the first characters 22 of the infinite string. There are  9occurrences
 of 'a' in the substring.  */
 
-public class _003_RepeatedString {
+public class _03_RepeatedString {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
