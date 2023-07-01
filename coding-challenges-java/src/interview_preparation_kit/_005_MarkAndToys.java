@@ -1,4 +1,4 @@
-package hackerrank;
+package interview_preparation_kit;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -35,7 +35,7 @@ Return:
 
  */
 
-public class _005_MarkAndToys_B {
+public class _005_MarkAndToys {
 
     public static void main(String[] args) {
 
@@ -57,12 +57,13 @@ public class _005_MarkAndToys_B {
 
     }
     public static int maximumToys(List<Integer> prices, int budget) {
-        Collections.sort(prices);
         int maxToys = 0;
 
-        for (int price : prices) {
-            if (budget >= price) {
-                budget -= price;
+        while (budget > 0) {
+            int cheapest = Collections.min(prices);
+            if (budget >= cheapest) {
+                budget -= cheapest;
+                prices.remove(Integer.valueOf(cheapest));
                 maxToys++;
             } else {
                 break;
@@ -70,6 +71,7 @@ public class _005_MarkAndToys_B {
         }
 
         return maxToys;
+
     }
 
 }

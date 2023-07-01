@@ -1,4 +1,4 @@
-package hackerrank;
+package interview_preparation_kit;
 
 import java.util.Arrays;
 import java.util.List;

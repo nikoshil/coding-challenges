@@ -1,4 +1,4 @@
-package hackerrank;
+package interview_preparation_kit;
 
 import java.util.*;
 import java.util.stream.Collectors;
