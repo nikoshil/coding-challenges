@@ -16,6 +16,12 @@ welcometojava
 ava
 wel
 
+- given:
+ASDFHDSFHsdlfhsdlfLDFHSDLFHsdlfhsdlhkfsdlfLHDFLSDKFHsdfhsdlkfhsdlfhsLFDLSFHSDLFHsdkfhsdkfhsdkfhsdfhsdfjeaDFHSDLFHDFlajfsdlfhsdlfhDSLFHSDLFHdlfhs
+30
+- the function should return:
+ASDFHDSFHsdlfhsdlfLDFHSDLFHsdl
+sdlkfhsdlfhsLFDLSFHSDLFHsdkfhs
  */
 
 public class _09_SubstringComparisons {
@@ -27,8 +33,8 @@ public class _09_SubstringComparisons {
 
         List<String> list = new ArrayList<>();
 
-        for (int i = 0; i < s.length() - 2; i++) {
-            list.add(s.substring(i, 3 + i));
+        for (int i = 0; i < s.length() - n + 1; i++) {
+            list.add(s.substring(i, n + i));
         }
 
         list.sort(Comparator.naturalOrder());
