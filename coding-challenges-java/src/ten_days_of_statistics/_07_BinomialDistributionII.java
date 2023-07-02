@@ -6,6 +6,9 @@ incorrectly sized. What is the probability that a batch of 10 pistons will conta
  - No more than 2 rejects?
  - At least 2 rejects?
 
+Input:
+12 (%)
+10
 Output:
 0,891
 0,342
@@ -19,9 +22,7 @@ public class _07_BinomialDistributionII {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        // 12 (%)
         double faultRate = Double.parseDouble(scanner.nextLine()) / 100;
-        // 10
         int batchSize = scanner.nextInt();
 
         // no more than two rejects: 8
@@ -33,7 +34,7 @@ public class _07_BinomialDistributionII {
         System.out.format("%.3f%n", calculateCumulativeProbability(batchSize, r1, faultRate));
         System.out.format("%.3f%n", calculateCumulativeProbability(batchSize, r2, 1 - faultRate));
 
-
+        scanner.close();
     }
 
     private static double calculateCumulativeProbability(int n, int sample, double rate) {
