@@ -20,15 +20,15 @@ public class _10_PoissonDistributionI {
 
         Scanner scanner = new Scanner(System.in);
         double mean = scanner.nextDouble();
-        double actual = scanner.nextDouble();
+        double k = scanner.nextDouble();
 
-        System.out.format("%.3f%n", calculatePoisson(mean, actual));
+        System.out.format("%.3f%n", calculatePoisson(mean, k));
 
         scanner.close();
     }
 
-    private static double calculatePoisson(double mean, double actual) {
-        return Math.pow(mean, actual) * Math.pow(EULERS_NUMBER, -mean) / calculateFactorial(actual);
+    private static double calculatePoisson(double mean, double k) {
+        return Math.pow(mean, k) * Math.pow(EULERS_NUMBER, -mean) / calculateFactorial(k);
     }
 
     private static double calculateFactorial(double n) {
