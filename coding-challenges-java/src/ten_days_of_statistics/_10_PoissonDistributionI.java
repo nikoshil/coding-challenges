@@ -12,6 +12,7 @@ Output:
 0,067
 
  */
+
 public class _10_PoissonDistributionI {
 
     private static final double EULERS_NUMBER = 2.71828;
