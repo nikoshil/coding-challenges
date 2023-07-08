@@ -6,6 +6,10 @@ import java.util.Scanner;
 import java.util.stream.Collectors;
 
 /*
+The Pearson correlation measures the strength of the linear relationship between two variables.
+It has a value between -1 to 1, with a value of -1 meaning a total negative linear correlation, 0 being no correlation,
+and + 1 meaning a total positive correlation.
+
 Pxy = COV(x, y) / STDy * STDy
 
 Input:
