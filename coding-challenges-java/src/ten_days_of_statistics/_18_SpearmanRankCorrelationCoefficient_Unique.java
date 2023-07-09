@@ -7,7 +7,8 @@ import java.util.stream.Collectors;
 Rank - the relative position label of the observations within the variable
 The Spearman correlation between two variables is equal to the Pearson correlation between the rank values of those two variables
 
-Rs = COV(Rx, Ry) / STDRy * STDRy
+Only if all N ranks are distinct integers, it can be computed using the formula:
+Rs = 1 - (6 * SUM((RXi - RYi)²) / n * (n² - 1)
 
 Input:
 10
