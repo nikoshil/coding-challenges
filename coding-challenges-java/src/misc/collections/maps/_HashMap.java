@@ -1,5 +1,6 @@
 package misc.collections.maps;
 
+import java.util.AbstractMap;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -136,6 +137,9 @@ public class _HashMap {
         iterateUsingLambda(elements);
         iterateUsingValuesAndLambda(elements);
         iterateUsingStreamAPI(elements);
+
+        // AbstractMap abstract class - provides a base class for implementing custom map-like data structures
+        AbstractMap<Integer, String> abstractMap = new HashMap<>();
 
     }
 

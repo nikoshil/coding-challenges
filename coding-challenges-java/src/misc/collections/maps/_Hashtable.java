@@ -1,9 +1,6 @@
 package misc.collections.maps;
 
-import java.util.Enumeration;
-import java.util.Hashtable;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
 
 public class _Hashtable {
 
@@ -59,6 +56,10 @@ public class _Hashtable {
         // of collisions. The bigger the array is, the smaller the chance of a collision. The load factor determines the
         // balance between the array size and the performance. By default, it's 0.75 which means that the array size
         // doubles when 75% of the buckets become not empty. This operation is executed by rehash() method.
+
+        // Dictionary abstract class - an older, legacy class that represents a key-value data structure but is generally
+        // replaced by Map and its implementations in modern Java programming.
+        Dictionary<Integer, String> dictionary = new Hashtable<>();
 
     }
 
